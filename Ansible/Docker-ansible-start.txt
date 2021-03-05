@@ -1,0 +1,8 @@
+sudo su
+sudo systemctl start docker
+docker pull cyberxsecurity/ansible
+docker run -ti cyberxsecurity/ansible:latest bash
+sudo docker ps
+sudo docker container list -a
+sudo docker start (container name)
+sudo docker attach (container name)
